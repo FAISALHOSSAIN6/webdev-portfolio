@@ -25,7 +25,7 @@
     background-color: #FD6E0A;
     color: white;
     width: 125px;
-    height: 50px;
+    height: 45px;
     border-radius: 5px;
     border: none;
     font-size: 17px;
@@ -130,6 +130,11 @@ main{
 
 
 /* What i do? */
+
+.skills{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .skills-container{
     display: flex;
     gap: 18px;
@@ -142,4 +147,47 @@ main{
 }
 .skill-title{
     font-size: 17px;
+}
+/* Resume Section Style  */
+.resume-container{
+  display: flex;
+  gap: 25px;
+  margin-top: 90px;
+}
+.resume-colum-title{
+  font-size: 25px;
+}
+
+.experience-title{
+  margin-bottom: 5px;
+}
+.experience-sub-title{
+  margin-bottom: 11px;
+}
+.experience-decription{
+  font-size: 15px;
+  color: #757575;
+}
+.resume-btn{
+  margin-top: 45px;
+}
+/* Footer Style */
+.main-footer{
+  display: flex;
+  padding: 100px 100px 100px 190px;
+  gap: 85px;
+}
+.footer-description{
+  font-weight: 300;
+  font-size: small;
+}
+.footer-colum-sms{
+  display: flex;
+  flex-direction: column;
+}
+.footer-colum-sms input{
+  width: 400px;
+  height: 45px;
+  border: none;
+  margin-bottom: 24px;
 }
