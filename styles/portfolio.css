@@ -35,6 +35,16 @@
   .bg{
     background-color:#FFF8F3;
   }
+  .section-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #181818;
+  }
+  .section-description{
+    font-size: 17px;
+    text-align: center;
+  }
+
   /* header */
   .header{
     background-image:  url('../images/developer.png'), url('../images/header_bg.png') ;
@@ -79,16 +89,38 @@ nav ul{
 }
 .banner-gretings{
     font-size: 30px;
+    margin-bottom: 0px;
 }
 .banner-title{
     font-size: 45px;
     font-weight: bold;
     color: #181818;
+    margin-bottom: 0;
 }
 .banner-description{
     font-size: 14px;
     margin-bottom: 15px;
 }
 .prifile-image{
-    width: 495px;
+    width: 475px;
+}
+/* MAin Style */
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Abut style */
+.about{
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 100px 130px;
+    text-align: center;
+}
+.item-description{
+    font-weight: 600;
+    margin-top: 0;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
